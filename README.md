@@ -6,7 +6,7 @@
    ```bash
    pip install pandas openpyxl
    ```
-2. **Input Data:** Place the provided Excel file (e.g., `Combined_Test_Data.xlsx`) in the same directory as the Python script. If your file has a different name, update the `pd.read_excel('filename.xlsx')` line in the code to match.
+2. **Input Data:** Place the provided Excel file (e.g., `TestData.xlsx`) in the same directory as the Python script. If your file has a different name, update the `pd.read_excel('filename.xlsx')` line in the code to match.
 3. **Execution:** Run the script from your terminal or command prompt:
    ```bash
    python main.py
