@@ -1,5 +1,7 @@
 # Delivery Route Planner
 
+---
+
 ## Reasoning & Technical Decisions
 
 ### 1. Explain your solution approach in your own words.
@@ -26,7 +28,7 @@ The current solution has a time complexity of roughly O(N^2). For every single p
 
 ---
 
-## 5. Your Extension: Vehicle Utilization Metric
+##  Extension: Vehicle Utilization Metric
 **Feature Added:** Fleet Efficiency Summary
 At the end of the routing process, the program calculates and outputs the overall vehicle capacity utilization percentage (e.g., "Overall Fleet Utilization: 85.0%"). 
 
