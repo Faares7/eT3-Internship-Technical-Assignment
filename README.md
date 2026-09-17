@@ -1,7 +1,5 @@
 # Delivery Route Planner
-
 ---
-
 ## Reasoning & Technical Decisions
 
 ### 1. Explain your solution approach in your own words.
@@ -27,7 +25,6 @@ The current solution has a time complexity of roughly O(N^2). For every single p
 *   **Sorting Upfront:** Instead of looping to find the minimum values every single time, I would sort the initial data primarily by Priority, then Area, then Weight using Python's `.sort(key=...)`. This would reduce the time complexity to O(N log N) and make the routing assignment nearly instantaneous, even for 1,000,000 rows.
 
 ---
-
 ##  Extension: Vehicle Utilization Metric
 **Feature Added:** Fleet Efficiency Summary
 At the end of the routing process, the program calculates and outputs the overall vehicle capacity utilization percentage (e.g., "Overall Fleet Utilization: 85.0%"). 
