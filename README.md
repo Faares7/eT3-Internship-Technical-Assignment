@@ -1,5 +1,19 @@
 # Delivery Route Planner
 ---
+## How to Run the Program
+
+1. **Prerequisites:** Ensure you have Python installed on your machine along with the `pandas` and `openpyxl` libraries. You can install them via your terminal:
+   ```bash
+   pip install pandas openpyxl
+   ```
+2. **Input Data:** Place the provided Excel file (e.g., `Combined_Test_Data.xlsx`) in the same directory as the Python script. If your file has a different name, update the `pd.read_excel('filename.xlsx')` line in the code to match.
+3. **Execution:** Run the script from your terminal or command prompt:
+   ```bash
+   python main.py
+   ```
+4. **Output:** The program will print each dispatched vehicle's packages, its destination area, the total weight, and a final summary of fleet efficiency directly to the console. Oversized packages (>10kg) will trigger a warning and be automatically skipped.
+
+---
 ## Reasoning & Technical Decisions
 
 ### 1. Explain your solution approach in your own words.
